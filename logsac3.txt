@@ -1,0 +1,39 @@
+2020-10-05T23:31:36.795420+00:00 app[api]: Release v1 created by user re.rony30@icloud.com
+2020-10-05T23:31:36.795420+00:00 app[api]: Initial release by user re.rony30@icloud.com
+2020-10-05T23:31:37.098783+00:00 app[api]: Enable Logplex by user re.rony30@icloud.com
+2020-10-05T23:31:37.098783+00:00 app[api]: Release v2 created by user re.rony30@icloud.com
+2020-10-05T23:54:40.000000+00:00 app[api]: Build started by user re.rony30@icloud.com
+2020-10-05T23:55:04.942921+00:00 app[api]: Deploy 82053454 by user re.rony30@icloud.com
+2020-10-05T23:55:04.942921+00:00 app[api]: Release v3 created by user re.rony30@icloud.com
+2020-10-05T23:55:04.957189+00:00 app[api]: Scaled to web@1:Free by user re.rony30@icloud.com
+2020-10-05T23:55:09.653107+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-05T23:55:12.916774+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+2020-10-05T23:55:12.916814+00:00 app[web.1]: * Environment: production
+2020-10-05T23:55:12.916841+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-05T23:55:12.916914+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-05T23:55:12.916982+00:00 app[web.1]: * Debug mode: off
+2020-10-05T23:55:12.935056+00:00 app[web.1]: * Running on http://0.0.0.0:7578/ (Press CTRL+C to quit)
+2020-10-05T23:55:14.138645+00:00 heroku[web.1]: State changed from starting to up
+2020-10-05T23:55:19.000000+00:00 app[api]: Build succeeded
+2020-10-05T23:57:03.595257+00:00 app[web.1]: 10.71.199.143 - - [05/Oct/2020 23:57:03] "GET / HTTP/1.1" 200 -
+2020-10-05T23:57:03.600257+00:00 heroku[router]: at=info method=GET path="/" host=immense-anchorage-11326.herokuapp.com request_id=fd6b5af4-a81e-489d-9c14-b0f57fb4d2c1 fwd="191.163.115.158" dyno=web.1 connect=1ms service=4ms status=200 bytes=185 protocol=https
+2020-10-05T23:57:04.045814+00:00 app[web.1]: 10.71.199.143 - - [05/Oct/2020 23:57:04] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-05T23:57:04.047303+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-anchorage-11326.herokuapp.com request_id=f563d95a-657d-463b-8477-6e28666f0fc2 fwd="191.163.115.158" dyno=web.1 connect=1ms service=22ms status=404 bytes=379 protocol=https
+2020-10-06T00:16:50.000000+00:00 app[api]: Build started by user re.rony30@icloud.com
+2020-10-06T00:17:14.723144+00:00 app[api]: Deploy f17f2641 by user re.rony30@icloud.com
+2020-10-06T00:17:14.723144+00:00 app[api]: Release v4 created by user re.rony30@icloud.com
+2020-10-06T00:17:14.883115+00:00 heroku[web.1]: Restarting
+2020-10-06T00:17:14.885527+00:00 heroku[web.1]: State changed from up to starting
+2020-10-06T00:17:16.638329+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-06T00:17:16.765196+00:00 heroku[web.1]: Process exited with status 143
+2020-10-06T00:17:18.066827+00:00 heroku[web.1]: Starting process with command `python ehprimo.py`
+2020-10-06T00:17:20.932362+00:00 app[web.1]: * Serving Flask app "ehprimo" (lazy loading)
+2020-10-06T00:17:20.932418+00:00 app[web.1]: * Environment: production
+2020-10-06T00:17:20.932476+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-06T00:17:20.932703+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-06T00:17:20.932774+00:00 app[web.1]: * Debug mode: off
+2020-10-06T00:17:20.960872+00:00 app[web.1]: * Running on http://0.0.0.0:44197/ (Press CTRL+C to quit)
+2020-10-06T00:17:21.387728+00:00 heroku[web.1]: State changed from starting to up
+2020-10-06T00:17:23.000000+00:00 app[api]: Build succeeded
+2020-10-06T00:17:36.162349+00:00 app[web.1]: 10.152.193.4 - - [06/Oct/2020 00:17:36] "GET / HTTP/1.1" 200 -
+2020-10-06T00:17:36.165586+00:00 heroku[router]: at=info method=GET path="/" host=immense-anchorage-11326.herokuapp.com request_id=bffa63aa-9fe3-48c4-af72-0e19917be17a fwd="191.163.115.158" dyno=web.1 connect=1ms service=6ms status=200 bytes=526 protocol=https
